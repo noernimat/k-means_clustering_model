@@ -18,6 +18,20 @@ Trip start day and time, Trip end day and time, Trip duration, Trip start statio
 ### Content
 In this dataset, we have the bike sharing information form 2017 and 2018.
 
+### Metadata
+    Usage Information             License                     Other (specified in description)
+                                  Visibility                  visibility Public 
+    
+    Provenance                    Sources                     (https://open.toronto.ca/dataset/bike-share-toronto-ridership-data/)
+                                  Collection methodology      Collected from https://open.toronto.ca/dataset/bike-share-toronto-ridership-data/ on 2/4/2020.
+
+    Maintainers                   Dataset owner               JackyWang (https://www.kaggle.com/loganalive)
+
+    Updates                       Expected update frequency   Annually
+                                  Last updated                2020-02-05                
+                                  Date created                2020-02-05                  
+                                  Current version             Version 2
+
 ### Atribut Dataset
 
 *   **trip_id**: unique identifier for each trip
@@ -56,6 +70,28 @@ References for code programming/articles
 2.   How to predict the flow of bikes. Are bikes returned to their initial location? Or are there flows of bikes from one region to another?
 
 
+## Results
 
-
+Top 10 Stations with the highest number of two-way traveler
+	
+      from_station_name                               to_station_name
+      
+      Bay St / Queens Quay W (Ferry Terminal)         3515
+      Humber Bay Shores Park West                     2162
+      York St / Queens Quay W                         1969
+      Ontario Place Blvd / Lakeshore Blvd W           1746
+      Tommy Thompson Park (Leslie Street Spit)        1742
+      HTO Park (Queens Quay W)                        1606
+      Lakeshore Blvd W / Ellis Ave                    1562
+      Lakeshore Blvd W / Windermere Ave               1238
+      Lakeshore Blvd W / Ontario Dr                   1201
+      Dockside Dr / Queens Quay E (Sugar Beach)       1028
+      
+Methode to Clustering Model
+- KMeans on gps coordinates (nbr_cluster = 20)
+(Clustering of the stations in 20 regions)
+- Mapping Station. Coordinates of cluster centers and map each station with its region
+- Plotting Cluster
+- Sum of all travel between 2 nodes during a period
+- Extract flows and creates graphs flows by time, stations, and regions. 
 
