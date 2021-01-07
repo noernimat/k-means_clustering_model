@@ -60,7 +60,7 @@ and should they just get their own bikes? Do we also need a crew to pick up and 
 2.   How many bikeshare trips usually visit more than just start/end points, but visited some other points before the end of the day?
 
 References for code programming/articles
-- Articles [Memahami K-Mean Clustering Pada Machine Learning Dengan Phyton](https://medium.com/@16611129/memahami-k-mean-clustering-pada-machine-learning-dengan-phyton-430323d80868)
+- [Memahami K-Mean Clustering Pada Machine Learning Dengan Phyton](https://medium.com/@16611129/memahami-k-mean-clustering-pada-machine-learning-dengan-phyton-430323d80868)
 - [Exploring Toronto Bike Share Ridership using Python](https://towardsdatascience.com/exploring-toronto-bike-share-ridership-using-python-3dc87d35cb62)
 - [Bike availability in the station](https://www.kaggle.com/iwanmanurung/bike-availability-in-the-station)
 - [See the flow of bikes](https://www.kaggle.com/yclaudel/see-the-flow-of-bikes)
@@ -94,4 +94,18 @@ Methode to Clustering Model
 - Plotting Cluster
 - Sum of all travel between 2 nodes during a period
 - Extract flows and creates graphs flows by time, stations, and regions. 
+
+Plotting clustering of the stations in 20 regions
+
+![1](k-means/1.png)
+
+Plot the graphs for stations for weekdays in 2018
+
+![2](k-means/2.png)
+
+Plot the graphs for regions for weekends in 2018
+
+![5](k-means/5.png)
+
+
 
